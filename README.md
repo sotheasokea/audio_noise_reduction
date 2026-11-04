@@ -65,3 +65,7 @@ denoised_audio, diagnostics = denoise_unknown_audio(
 ```
 
 The noise-only reference should be recorded in similar acoustic conditions and at a comparable gain. The function returns mono floating-point audio at the input sample rate and diagnostics describing detected events and the noise-profile source.
+
+## References
+
+See the notebook's [Reference section](./audio_noise_reduction_compatible_mixture.ipynb#nb-reference) for the audio datasets, DSP course materials, SciPy documentation, and Wiener-filter citation.
