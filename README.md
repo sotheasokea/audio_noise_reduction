@@ -68,4 +68,4 @@ The noise-only reference should be recorded in similar acoustic conditions and a
 
 ## References
 
-See the notebook's [Reference section](./audio_noise_reduction_compatible_mixture.ipynb#nb-reference) for the audio datasets, DSP course materials, SciPy documentation, and Wiener-filter citation.
+See the notebook's [Reference section](./audio_noise_reduction.ipynb#nb-reference) for the audio datasets, DSP course materials, SciPy documentation, and Wiener-filter citation.
