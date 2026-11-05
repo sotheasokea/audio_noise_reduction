@@ -1,0 +1,18 @@
+# Runtime: Python 3.10 or newer (3.11+ recommended); a standard CPU is enough.
+# Python itself is installed separately; it cannot be installed by pip.
+# Install packages with: python -m pip install -r requirement.txt
+# From this folder, launch with: jupyter notebook audio_noise_reduction.ipynb
+
+# Required third-party packages used by the notebook
+numpy>=2.0
+scipy>=1.13
+
+matplotlib>=3.8
+ipython>=8.0
+jupyter>=1.0
+ipykernel>=6.0
+
+# Project data must be present in ../1_data/audio/ and ../1_data/noisy_audio/
+# when running from 2_code (or in 1_data/ from the repository root).
+# The notebook uses WAV files, so no additional audio codec package is required.
+# FFmpeg is optional; install it separately only if converting source .m4a files.
